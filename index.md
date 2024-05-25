@@ -122,6 +122,11 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
   - 本書ではRDBを対象としているわけではないですが、分散化にチャレンジしてみようという方は一読しておいて損はないかと感じました
   - ついでですが、分散トランザクション（というか、その前段として必要な分散合意）のあたりについて知識を深めたい方は以下のスライドなど読んでおくと良いでしょう
     - [分散システムについて語らせてくれ](https://www.docswell.com/s/kumagi/ZXYYLN-let-me-talk-about-distributed-system) by 熊崎 宏樹（kumagi）
+- [talent-plan/tinykv](https://github.com/talent-plan/tinykv)
+  - こちらも分散データベース関連
+  - MySQL互換を謳う分散RDBMSとして[TiDB](https://pingcap.co.jp/tidb/)というプロダクトがあり、そのバックエンドとして分散KVSである[tikv](https://github.com/tikv/tikv)というものが用いられています
+  - tinykvのリポジトリでは上述のtikvのミニマムな実装を段階を追って行ってみよう、というコースを提供しています
+  - 分散合意プロトコルである Raft や、その発展形である Multi-Raft の実装も自前でやるようで、なかなか熱い感じです
 
 ### 余談
 - インデックスの実装にB+木が広く利用されているということで、ここまでに挙げた書籍でも採用されていることが多いですが、レコードの削除・更新および並行トランザクション実行における排他制御までサポートしようとすると途端に難易度が跳ね上がるそうです
