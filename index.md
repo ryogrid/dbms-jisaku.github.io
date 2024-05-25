@@ -124,8 +124,8 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
     - [分散システムについて語らせてくれ](https://www.docswell.com/s/kumagi/ZXYYLN-let-me-talk-about-distributed-system) by 熊崎 宏樹（kumagi）
 - [talent-plan/tinykv](https://github.com/talent-plan/tinykv)
   - こちらも分散データベース関連
-  - MySQL互換を謳う分散RDBMSとして[TiDB](https://pingcap.co.jp/tidb/)というプロダクトがあり、そのバックエンドとして分散KVSである[tikv](https://github.com/tikv/tikv)というものが用いられています
-  - tinykvのリポジトリでは上述のtikvのミニマムな実装を段階を追って行ってみよう、というコースを提供しています
+  - MySQL互換を謳う分散RDBMSとして[TiDB](https://pingcap.co.jp/tidb/)というプロダクトがあり、そのバックエンドとして分散KVSである[TiKV](https://github.com/tikv/tikv)というものが用いられています
+  - tinykvのリポジトリでは上述のTiKVのミニマムな実装を段階を追って行ってみよう、というコースを提供しています
   - 分散合意プロトコルである Raft や、その発展形である Multi-Raft の実装も自前でやるようで、なかなか熱い感じです
 
 ### 余談
