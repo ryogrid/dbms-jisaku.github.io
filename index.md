@@ -120,7 +120,7 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
   - bootjp氏が技術書典で出された技術系同人誌
     - 上のリンク先で電子版 (pdf) が購入できます
   - 本書ではRDBを対象としているわけではないですが、分散化にチャレンジしてみようという方は一読しておいて損はないかと感じました
-  - ついでですが、分散トランザクションのあたりについて知識を深めたい方は以下のスライドなど読んでおくと良いでしょう
+  - ついでですが、分散トランザクション（というか、その前段として必要な分散合意）のあたりについて知識を深めたい方は以下のスライドなど読んでおくと良いでしょう
     - [分散システムについて語らせてくれ](https://www.docswell.com/s/kumagi/ZXYYLN-let-me-talk-about-distributed-system) by 熊崎 宏樹（kumagi）
 
 ### 余談
