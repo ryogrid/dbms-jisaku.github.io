@@ -115,7 +115,7 @@ Database Systemのアーキテクチャの概要などについて解説され�
 - Databae System について丸っと論じている（解説している）論文もあり、論文と言われて想像するボリューム感ではないですが読み切れたらいいなあという一本です
   - Joseph M. Hellerstein, Michael Stonebraker
 and James Hamilton, ["Architecture of a Database System"](https://scholar.google.co.jp/scholar?cluster=11466590537214723805&hl=ja&as_sdt=0,5)
-- [Go言語で作って理解する  Raftベース Redis互換KVS](https://techbookfest.org/product/nvCYxrw1szsgJThN9HQTyd?productVariantID=wC0ZbcNHCPwUpPyk3TmTUX)
+- bootjp著 [Go言語で作って理解する  Raftベース Redis互換KVS](https://techbookfest.org/product/nvCYxrw1szsgJThN9HQTyd?productVariantID=wC0ZbcNHCPwUpPyk3TmTUX)
   - 雑に言えば強い一貫性を提供する分散KVSをRedis互換のI/Fで作ってみよう、という内容
   - bootjp氏が技術書典で出された技術系同人誌
     - 上のリンク先で電子版 (pdf) が購入できます
