@@ -133,7 +133,14 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
   - 管理人はB+木から逃げてSkip List Indexというものを実装しまして、その時のノウハウを記事にしたためておきました
     - 手前味噌ですが、よければ参考にしてみて下さい
     - [自作RDBのためにオンディスク並行Skip Listを作ってみた - Qiita](https://qiita.com/ryo_grid/items/662ed4a069e4b9064dff) 
-
+- [Go言語で作って理解する  Raftベース Redis互換KVS](https://techbookfest.org/product/nvCYxrw1szsgJThN9HQTyd?productVariantID=wC0ZbcNHCPwUpPyk3TmTUX)
+  - 雑に言えば強い一貫性を提供する分散KVSをRedis互換のI/Fで作ってみよう、という内容
+  - bootjp氏が技術書典で出された技術系同人誌
+    - 上のリンク先で電子版 (pdf) が購入できます
+  - 本書ではRDBを対象としているわけではないですが、分散化にチャレンジしてみようという方は一読しておいて損はないかと感じました
+  - ついでですが、分散トランザクションのあたりについて知識を深めたい方は以下のスライドなど読んでおくと良いでしょう
+    - [分散システムについて語らせてくれ](https://www.docswell.com/s/kumagi/ZXYYLN-let-me-talk-about-distributed-system) by 熊崎 宏樹（kumagi）
+  
 ## その他の自作RDBMSに役立ちそうな情報源
 - 何か載せたいものがあれば Pull Request お願いします
 - 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
