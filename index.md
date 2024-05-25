@@ -115,6 +115,13 @@ Database Systemのアーキテクチャの概要などについて解説され�
 - Databae System について丸っと論じている（解説している）論文もあり、論文と言われて想像するボリューム感ではないですが読み切れたらいいなあという一本です
   - Joseph M. Hellerstein, Michael Stonebraker
 and James Hamilton, ["Architecture of a Database System"](https://scholar.google.co.jp/scholar?cluster=11466590537214723805&hl=ja&as_sdt=0,5)
+- [Go言語で作って理解する  Raftベース Redis互換KVS](https://techbookfest.org/product/nvCYxrw1szsgJThN9HQTyd?productVariantID=wC0ZbcNHCPwUpPyk3TmTUX)
+  - 雑に言えば強い一貫性を提供する分散KVSをRedis互換のI/Fで作ってみよう、という内容
+  - bootjp氏が技術書典で出された技術系同人誌
+    - 上のリンク先で電子版 (pdf) が購入できます
+  - 本書ではRDBを対象としているわけではないですが、分散化にチャレンジしてみようという方は一読しておいて損はないかと感じました
+  - ついでですが、分散トランザクションのあたりについて知識を深めたい方は以下のスライドなど読んでおくと良いでしょう
+    - [分散システムについて語らせてくれ](https://www.docswell.com/s/kumagi/ZXYYLN-let-me-talk-about-distributed-system) by 熊崎 宏樹（kumagi）
 
 ### 余談
 - インデックスの実装にB+木が広く利用されているということで、ここまでに挙げた書籍でも採用されていることが多いですが、レコードの削除・更新および並行トランザクション実行における排他制御までサポートしようとすると途端に難易度が跳ね上がるそうです
@@ -133,13 +140,6 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
   - 管理人はB+木から逃げてSkip List Indexというものを実装しまして、その時のノウハウを記事にしたためておきました
     - 手前味噌ですが、よければ参考にしてみて下さい
     - [自作RDBのためにオンディスク並行Skip Listを作ってみた - Qiita](https://qiita.com/ryo_grid/items/662ed4a069e4b9064dff) 
-- [Go言語で作って理解する  Raftベース Redis互換KVS](https://techbookfest.org/product/nvCYxrw1szsgJThN9HQTyd?productVariantID=wC0ZbcNHCPwUpPyk3TmTUX)
-  - 雑に言えば強い一貫性を提供する分散KVSをRedis互換のI/Fで作ってみよう、という内容
-  - bootjp氏が技術書典で出された技術系同人誌
-    - 上のリンク先で電子版 (pdf) が購入できます
-  - 本書ではRDBを対象としているわけではないですが、分散化にチャレンジしてみようという方は一読しておいて損はないかと感じました
-  - ついでですが、分散トランザクションのあたりについて知識を深めたい方は以下のスライドなど読んでおくと良いでしょう
-    - [分散システムについて語らせてくれ](https://www.docswell.com/s/kumagi/ZXYYLN-let-me-talk-about-distributed-system) by 熊崎 宏樹（kumagi）
   
 ## その他の自作RDBMSに役立ちそうな情報源
 - 何か載せたいものがあれば Pull Request お願いします
