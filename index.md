@@ -35,6 +35,11 @@ Database Systemのアーキテクチャの概要などについて解説され�
 - [PostgreSQL 互換の DBMS を自作してみた - goropikariの備忘録](https://goropikari.hatenablog.com/entry/build_own_dbms)
   - こちらもオンメモリでの実装のようです
   - PostgreSQL client から接続できるようにした（そこの点で互換性を持たせた）そうで、フロント回りのお話は特に興味深いです
+- [DB初心者が自作DBMS始めてみた - Qiita](https://qiita.com/yamoyamoto/items/e86b5d081a42810ba920)
+  - 上で紹介しているSansan社の方が実装されたbogoDBを参考に実装されたとのこと
+  - 実装言語はGo
+  - 本サイトにも言及してくださっており、管理人としてはちょっと嬉しみ
+ 
 
 ### 日本語の書籍で（Relational) Database System の基本について押さえよう
 - [北川 博之著 『データベースシステム 改訂2版』](https://www.amazon.co.jp/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-%E6%94%B9%E8%A8%822%E7%89%88-%E5%8C%97%E5%B7%9D%E5%8D%9A%E4%B9%8B-ebook/dp/B08BNXFRL3/)
