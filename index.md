@@ -39,6 +39,9 @@ Database Systemのアーキテクチャの概要などについて解説され�
   - 上で紹介しているSansan社の方が実装されたbogoDBを参考に実装されたとのこと
   - 実装言語はGo
   - 本サイトにも言及してくださっており、管理人としてはちょっと嬉しみ
+- [Goで自作RDBMS - abekoh's tech blog](https://blog.abekoh.dev/posts/simple-db)
+  - SimpleDBをGoで実装されてみたとのこと
+  - PostgreSQL互換インタフェースも実装
  
 
 ### 日本語の書籍で（Relational) Database System の基本について押さえよう
